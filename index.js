@@ -1,7 +1,8 @@
 const Discord = require('discord.js'); //C'est une variable, qui se nomme "Discord" qui a besoint des dépendances de discord.js
 const bot = new Discord.Client(); //On peut remplacer "bot" par "client". Cette variable va créer le bot en quelque sorte
-bot.login('TOKEN') //Le "bot" reprend la variable "bot" juste au dessus. Remplacez "TOKEN" par le token de votre bot !
-const prefix = '!' // Nous définissons le préfix du bot tel que "!"
+const config = require("./config.json"); //Nous récupérons la configuration "config.json" et le ./ correspond à la racine du bot, là où se trouve l'index
+bot.login(config.token) //Le "bot" reprend la variable "bot" juste au dessus. Le token sera dans la config.json
+const prefix = config.prefix // Nous définissons le préfix du bot tel que le préfix utiliser dans la config.json
 
 bot.on('ready', function () { //Dès que le bot est connecté et donc "ready", il va effectuer toutes les actions présentes dans les accolades
 console.log("Connecté")

@@ -9,6 +9,17 @@ L'intégralité de nos tutoriaux sont rédigés et expliqués sur notre [Serveur
 De plus, divers salons d'aides sont installés afin d'aider les personnes à suivre nos tutoriaux ou à corriger leurs problèmes personnels.
 ᅠ
 
+# Configuration
+
+Il suffit de remplacer le token et le préfix situer dans la config pour faire fonctionner correctement le bot.
+```json
+{
+    "prefix": "PREFIX",
+    "token": "TOKEN"
+}
+```
+
+
 # Commandes
 
 **Installation**
@@ -21,4 +32,5 @@ De plus, divers salons d'aides sont installés afin d'aider les personnes à sui
 # Sommaire
 * [Introduction](#Introduction)
     * [Discord](#Discord)
+    * [Configuration](#Configuration)
     * [Commandes](#Commandes)
