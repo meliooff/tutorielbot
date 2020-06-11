@@ -3,7 +3,7 @@
 > Nos tutoriaux sont pour l'instant sur la v11 de discord.js mais seront bientôt adaptés à la nouvelle version
 Des tutoriaux vidéos sont présents sur le serveur ainsi que des explications pour installer les dépendances et créer votre bot ainsi que les commandes
 
-# Notre Discord
+# Discord
 
 L'intégralité de nos tutoriaux sont rédigés et expliqués sur notre [Serveur Discord](https://discord.gg/PCZ8V4j).
 De plus, divers salons d'aides sont installés afin d'aider les personnes à suivre nos tutoriaux ou à corriger leurs problèmes personnels.
@@ -20,5 +20,5 @@ De plus, divers salons d'aides sont installés afin d'aider les personnes à sui
 
 # Sommaire
 * [Introduction](#Introduction)
-    * [Discord](#Notre Discord)
+    * [Discord](#Discord)
     * [Commandes](#Commandes)
