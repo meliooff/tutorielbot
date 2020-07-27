@@ -6,7 +6,7 @@ const embed = new Discord.RichEmbed() // On définis l'embed, seul "embed" (nom 
         .setColor("ORANGE")
         .setDescription("🏓| Commande ping")
         .setThumbnail(bot.user.avatarURL) // Le thumbnail est donc l'avatar du bot
-        .addField("Ping", (Date.now() - message.createdTimestamp) + "`ms`")
+        .addField("Ping", bot.ping + "`ms`")
         .setFooter("Demandé par : " + message.author.username, message.author.avatarURL) // On indique le nom et l'avatar de l'auteur du message
         .setTimestamp()
     message.channel.send(embed) // On envoie enfin l'embed dans le salon
