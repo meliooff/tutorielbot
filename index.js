@@ -6,11 +6,8 @@ const prefix = config.prefix // Nous définissons le préfix du bot tel que le p
 
 bot.on('ready', function () { //Dès que le bot est connecté et donc "ready", il va effectuer toutes les actions présentes dans les accolades
 console.log("Connecté")
-bot.user.setPresence({ //On définit que le bot (variable du début) va définir sa présence (jeu) par les caractéristiques dans les accolades
-    game: { // On définit le jeu tel que :
-        name: `le serveur | ${prefix}help`, // Nom du jeu
-        type: "Watching", // Type de jeu (ici ça sera regarde ...)
-    }
+bot.user.setActivity(`le serveur | ${prefix}help`, { // Nom du jeu
+    type: "WATCHING" // Type de jeu (ici ça sera regarde ...)
 });
 });
 
