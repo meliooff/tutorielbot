@@ -1,6 +1,5 @@
-# Introduction [![Version](https://img.shields.io/badge/discord--js-v11.4.2-blue)](https://github.com/discordjs) [![Stars](https://img.shields.io/github/stars/meliooff/tutorielbot)](https://github.com/meliooff/tutorielbot)
+# Introduction [![Version](https://img.shields.io/badge/discord--js-v12.2.0-blue)](https://github.com/discordjs) [![Stars](https://img.shields.io/github/stars/meliooff/tutorielbot)](https://github.com/meliooff/tutorielbot)
 
-> Nos tutoriaux sont pour l'instant sur la v11 de discord.js mais seront bientôt adaptés à la nouvelle version
 Des tutoriaux vidéos sont présents sur le serveur ainsi que des explications pour installer les dépendances et créer votre bot ainsi que les commandes
 
 # Discord
