@@ -8,7 +8,7 @@ bot.on('ready', function () { //Dès que le bot est connecté et donc "ready", i
 console.log("Connecté")
 bot.user.setPresence({ //On définit que le bot (variable du début) va définir sa présence (jeu) par les caractéristiques dans les accolades
     game: { // On définit le jeu tel que :
-        name: 'le serveur | !help', // Nom du jeu
+        name: `le serveur | ${prefix}help`, // Nom du jeu
         type: "Watching", // Type de jeu (ici ça sera regarde ...)
     }
 });
