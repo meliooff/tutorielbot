@@ -16,8 +16,7 @@ exports.run = (bot, message) => {
       return message.channel.send('Cet utilisateur ne peux pas être banni.')
     }
     
-    return member
-      .ban() // On ban le membre
+    return message.guild.members.ban(member, { reason: "Aucune raison fournie"}) //On ban le membre
       .then(() => message.channel.send(`:white_check_mark: | ${member.user.tag} à bien été banni du serveur!`)) // Une fois banni on écrit
       .catch(error => message.reply(`Une erreur est survenue.`)) // En cas d'erreur
     }
